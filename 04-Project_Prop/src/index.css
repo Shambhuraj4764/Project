@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(80, 48, 54);
+}
+
+html,body
+{
+  height: 100%;
+  width: 100%;
+}
+
+.Parent{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;  
+}
+
+.card{
+  width: 400px;
+  height: 90%;
+  margin: 50px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 3px solid black;
+}
+
+.card img{
+  width: 100%;
+  object-fit: cover;
+  padding: 60px 45px;
+  border: 1px solid #b7afaf;
+}
+
+.Name h1{
+  color: wheat;
+  padding: 15px 1px 15px 10px;
+}
+
+.Name h3{
+  color: wheat;
+  padding: 30px 5px 0px;
+}
+
+p{
+  width: 100%;
+  color: beige;
+  padding: 0px 10px 25px 10px;
+}
+
+.Name{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
